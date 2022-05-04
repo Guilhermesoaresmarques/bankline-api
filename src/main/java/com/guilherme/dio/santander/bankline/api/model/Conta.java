@@ -1,6 +1,10 @@
 package com.guilherme.dio.santander.bankline.api.model;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class Conta {
+
     private Long numero;
     private Double saldo;
 
